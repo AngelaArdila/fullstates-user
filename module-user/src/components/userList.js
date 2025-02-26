@@ -68,6 +68,7 @@ export default function UserList({ refresh }) {
 
     if (updatedEmail === selectedUser.email) {
       alert("No hay cambios en el correo electrónico.");
+      //console.log("hola aqui estube")
       return;
     }
 
